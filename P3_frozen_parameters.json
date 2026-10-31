@@ -1,0 +1,2211 @@
+{
+  "primary": {
+    "groups": [
+      "Age",
+      "SURGERY"
+    ],
+    "members": [
+      {
+        "intercept": -3.0413833823081995,
+        "categories": {
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 1.0783494692379851
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.14385021287355407
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.11113701504158585
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.30451847905202617
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.10436244510166139
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "intercept": -3.0413833823081995,
+        "categories": {
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 1.0783494692379851
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.14385021287355407
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.11113701504158585
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.30451847905202617
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.10436244510166139
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "intercept": -3.0413833823081995,
+        "categories": {
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 1.0783494692379851
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.14385021287355407
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.11113701504158585
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.30451847905202617
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.10436244510166139
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "intercept": -3.0413833823081995,
+        "categories": {
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 1.0783494692379851
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.14385021287355407
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.11113701504158585
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.30451847905202617
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.10436244510166139
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          }
+        ]
+      },
+      {
+        "intercept": -3.0413833823081995,
+        "categories": {
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 1.0783494692379851
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.14385021287355407
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.11113701504158585
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.30451847905202617
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.10436244510166139
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          }
+        ]
+      }
+    ],
+    "outcome": "730-day mortality after discharge",
+    "input_contract": "complete inputs only; mean of member probabilities"
+  },
+  "comparator": {
+    "groups": [
+      "Gender",
+      "Age",
+      "MAP",
+      "FFP",
+      "hypertension",
+      "tumor",
+      "2Solidtumor",
+      "VD1",
+      "calcium",
+      "ASA",
+      "SURGERY",
+      "rx_CCB_index",
+      "rx_loop_diuretic_index",
+      "rx_beta_blocker_index",
+      "rx_other_antihypertensive_index",
+      "rx_thiazide_index"
+    ],
+    "members": [
+      {
+        "intercept": -3.1437465461336185,
+        "categories": {
+          "ASA": {
+            "common": [
+              "2",
+              "3",
+              "1"
+            ],
+            "reference": "2",
+            "training_counts": {
+              "2": 1415,
+              "3": 512,
+              "1": 160,
+              "4": 7
+            }
+          },
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Gender",
+            "field": "Gender",
+            "category": null,
+            "log1p": false,
+            "mean": 0.31996179560649474,
+            "scale": 0.46646140779142964,
+            "coefficient": 0.1690329887655775
+          },
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 0.9440535255664284
+          },
+          {
+            "encoded": "MAP",
+            "field": "MAP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.01767368939374815,
+            "scale": 0.15995828406930165,
+            "coefficient": 0.05087646270926146
+          },
+          {
+            "encoded": "FFP",
+            "field": "FFP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.25078626104935403,
+            "scale": 1.182358738247981,
+            "coefficient": -0.20098936773272774
+          },
+          {
+            "encoded": "hypertension",
+            "field": "hypertension",
+            "category": null,
+            "log1p": false,
+            "mean": 0.15950334288443171,
+            "scale": 0.3661448162860197,
+            "coefficient": 0.07075599995742078
+          },
+          {
+            "encoded": "tumor",
+            "field": "tumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.0735767784162897
+          },
+          {
+            "encoded": "2Solidtumor",
+            "field": "2Solidtumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07732449064483428
+          },
+          {
+            "encoded": "VD1",
+            "field": "VD1",
+            "category": null,
+            "log1p": false,
+            "mean": 0.6561604584527221,
+            "scale": 0.4749883274521972,
+            "coefficient": 0.19073113512185655
+          },
+          {
+            "encoded": "calcium",
+            "field": "calcium",
+            "category": null,
+            "log1p": false,
+            "mean": 2.2172357947068293,
+            "scale": 0.12850975445758092,
+            "coefficient": -0.13680573237271343
+          },
+          {
+            "encoded": "ASA__1",
+            "field": "ASA",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.07640878701050621,
+            "scale": 0.2656510573630177,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__3",
+            "field": "ASA",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.24450811843361986,
+            "scale": 0.42979518198052286,
+            "coefficient": 0.13260546356948588
+          },
+          {
+            "encoded": "ASA__OTHER",
+            "field": "ASA",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.0033428844317096467,
+            "scale": 0.05772096287646178,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__UNKNOWN",
+            "field": "ASA",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.08969187484817737
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.257820181912191
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.07736612831268354
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "rx_CCB_index",
+            "field": "rx_CCB_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.09551098376313276,
+            "scale": 0.2939194375058093,
+            "coefficient": 0.12529484126960896
+          },
+          {
+            "encoded": "rx_loop_diuretic_index",
+            "field": "rx_loop_diuretic_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.11127029608404966,
+            "scale": 0.31446655989694294,
+            "coefficient": 0.1671645091514878
+          },
+          {
+            "encoded": "rx_beta_blocker_index",
+            "field": "rx_beta_blocker_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.06017191977077364,
+            "scale": 0.23780508792259517,
+            "coefficient": 0.03610910334862886
+          },
+          {
+            "encoded": "rx_other_antihypertensive_index",
+            "field": "rx_other_antihypertensive_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.03629417382999045,
+            "scale": 0.18702113991736039,
+            "coefficient": 0.11325429696441239
+          },
+          {
+            "encoded": "rx_thiazide_index",
+            "field": "rx_thiazide_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.015281757402101241,
+            "scale": 0.12267120808406741,
+            "coefficient": 0.11993150147774245
+          }
+        ]
+      },
+      {
+        "intercept": -3.142549204796299,
+        "categories": {
+          "ASA": {
+            "common": [
+              "2",
+              "3",
+              "1"
+            ],
+            "reference": "2",
+            "training_counts": {
+              "2": 1415,
+              "3": 512,
+              "1": 160,
+              "4": 7
+            }
+          },
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Gender",
+            "field": "Gender",
+            "category": null,
+            "log1p": false,
+            "mean": 0.31996179560649474,
+            "scale": 0.46646140779142964,
+            "coefficient": 0.16938684866991066
+          },
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 0.9433666560674293
+          },
+          {
+            "encoded": "MAP",
+            "field": "MAP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.01767368939374815,
+            "scale": 0.15995828406930165,
+            "coefficient": 0.05098006668131235
+          },
+          {
+            "encoded": "FFP",
+            "field": "FFP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.25078626104935403,
+            "scale": 1.182358738247981,
+            "coefficient": -0.20073334298285922
+          },
+          {
+            "encoded": "hypertension",
+            "field": "hypertension",
+            "category": null,
+            "log1p": false,
+            "mean": 0.15950334288443171,
+            "scale": 0.3661448162860197,
+            "coefficient": 0.0705580252789729
+          },
+          {
+            "encoded": "tumor",
+            "field": "tumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07365911875712658
+          },
+          {
+            "encoded": "2Solidtumor",
+            "field": "2Solidtumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07717479996100629
+          },
+          {
+            "encoded": "VD1",
+            "field": "VD1",
+            "category": null,
+            "log1p": false,
+            "mean": 0.6561604584527221,
+            "scale": 0.4749883274521972,
+            "coefficient": 0.19134586468351586
+          },
+          {
+            "encoded": "calcium",
+            "field": "calcium",
+            "category": null,
+            "log1p": false,
+            "mean": 2.2170360016596438,
+            "scale": 0.12828202766985103,
+            "coefficient": -0.12643719811375695
+          },
+          {
+            "encoded": "ASA__1",
+            "field": "ASA",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.07640878701050621,
+            "scale": 0.2656510573630177,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__3",
+            "field": "ASA",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.24450811843361986,
+            "scale": 0.42979518198052286,
+            "coefficient": 0.13301852130017403
+          },
+          {
+            "encoded": "ASA__OTHER",
+            "field": "ASA",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.0033428844317096467,
+            "scale": 0.05772096287646178,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__UNKNOWN",
+            "field": "ASA",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.09004183024407755
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.25775862018823104
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.07725262249689221
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "rx_CCB_index",
+            "field": "rx_CCB_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.09551098376313276,
+            "scale": 0.2939194375058093,
+            "coefficient": 0.12486249933517601
+          },
+          {
+            "encoded": "rx_loop_diuretic_index",
+            "field": "rx_loop_diuretic_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.11127029608404966,
+            "scale": 0.31446655989694294,
+            "coefficient": 0.16710028963182283
+          },
+          {
+            "encoded": "rx_beta_blocker_index",
+            "field": "rx_beta_blocker_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.06017191977077364,
+            "scale": 0.23780508792259517,
+            "coefficient": 0.036105962852444495
+          },
+          {
+            "encoded": "rx_other_antihypertensive_index",
+            "field": "rx_other_antihypertensive_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.03629417382999045,
+            "scale": 0.18702113991736039,
+            "coefficient": 0.11311712911817451
+          },
+          {
+            "encoded": "rx_thiazide_index",
+            "field": "rx_thiazide_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.015281757402101241,
+            "scale": 0.12267120808406741,
+            "coefficient": 0.12020574922980057
+          }
+        ]
+      },
+      {
+        "intercept": -3.1441560247999076,
+        "categories": {
+          "ASA": {
+            "common": [
+              "2",
+              "3",
+              "1"
+            ],
+            "reference": "2",
+            "training_counts": {
+              "2": 1415,
+              "3": 512,
+              "1": 160,
+              "4": 7
+            }
+          },
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Gender",
+            "field": "Gender",
+            "category": null,
+            "log1p": false,
+            "mean": 0.31996179560649474,
+            "scale": 0.46646140779142964,
+            "coefficient": 0.16866546868971485
+          },
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 0.943519667441188
+          },
+          {
+            "encoded": "MAP",
+            "field": "MAP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.01767368939374815,
+            "scale": 0.15995828406930165,
+            "coefficient": 0.05095924251198351
+          },
+          {
+            "encoded": "FFP",
+            "field": "FFP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.25078626104935403,
+            "scale": 1.182358738247981,
+            "coefficient": -0.20065397255687734
+          },
+          {
+            "encoded": "hypertension",
+            "field": "hypertension",
+            "category": null,
+            "log1p": false,
+            "mean": 0.15950334288443171,
+            "scale": 0.3661448162860197,
+            "coefficient": 0.07081340928891083
+          },
+          {
+            "encoded": "tumor",
+            "field": "tumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07356700233923347
+          },
+          {
+            "encoded": "2Solidtumor",
+            "field": "2Solidtumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.077367364378153
+          },
+          {
+            "encoded": "VD1",
+            "field": "VD1",
+            "category": null,
+            "log1p": false,
+            "mean": 0.6561604584527221,
+            "scale": 0.4749883274521972,
+            "coefficient": 0.19047746271608174
+          },
+          {
+            "encoded": "calcium",
+            "field": "calcium",
+            "category": null,
+            "log1p": false,
+            "mean": 2.2173894750333494,
+            "scale": 0.12826403526705682,
+            "coefficient": -0.13827600064889747
+          },
+          {
+            "encoded": "ASA__1",
+            "field": "ASA",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.07640878701050621,
+            "scale": 0.2656510573630177,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__3",
+            "field": "ASA",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.24450811843361986,
+            "scale": 0.42979518198052286,
+            "coefficient": 0.1335869626403666
+          },
+          {
+            "encoded": "ASA__OTHER",
+            "field": "ASA",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.0033428844317096467,
+            "scale": 0.05772096287646178,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__UNKNOWN",
+            "field": "ASA",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.09064838774580503
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.2582972337994721
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.07713862622626322
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "rx_CCB_index",
+            "field": "rx_CCB_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.09551098376313276,
+            "scale": 0.2939194375058093,
+            "coefficient": 0.12456017967817626
+          },
+          {
+            "encoded": "rx_loop_diuretic_index",
+            "field": "rx_loop_diuretic_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.11127029608404966,
+            "scale": 0.31446655989694294,
+            "coefficient": 0.16696999231315515
+          },
+          {
+            "encoded": "rx_beta_blocker_index",
+            "field": "rx_beta_blocker_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.06017191977077364,
+            "scale": 0.23780508792259517,
+            "coefficient": 0.03619794545038858
+          },
+          {
+            "encoded": "rx_other_antihypertensive_index",
+            "field": "rx_other_antihypertensive_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.03629417382999045,
+            "scale": 0.18702113991736039,
+            "coefficient": 0.1128590158868224
+          },
+          {
+            "encoded": "rx_thiazide_index",
+            "field": "rx_thiazide_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.015281757402101241,
+            "scale": 0.12267120808406741,
+            "coefficient": 0.12004198426550819
+          }
+        ]
+      },
+      {
+        "intercept": -3.1438922454798917,
+        "categories": {
+          "ASA": {
+            "common": [
+              "2",
+              "3",
+              "1"
+            ],
+            "reference": "2",
+            "training_counts": {
+              "2": 1415,
+              "3": 512,
+              "1": 160,
+              "4": 7
+            }
+          },
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Gender",
+            "field": "Gender",
+            "category": null,
+            "log1p": false,
+            "mean": 0.31996179560649474,
+            "scale": 0.46646140779142964,
+            "coefficient": 0.16883327465878673
+          },
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 0.9434325073318433
+          },
+          {
+            "encoded": "MAP",
+            "field": "MAP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.01767368939374815,
+            "scale": 0.15995828406930165,
+            "coefficient": 0.050908521675999505
+          },
+          {
+            "encoded": "FFP",
+            "field": "FFP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.25078626104935403,
+            "scale": 1.182358738247981,
+            "coefficient": -0.20127880993730846
+          },
+          {
+            "encoded": "hypertension",
+            "field": "hypertension",
+            "category": null,
+            "log1p": false,
+            "mean": 0.15950334288443171,
+            "scale": 0.3661448162860197,
+            "coefficient": 0.07086060211008693
+          },
+          {
+            "encoded": "tumor",
+            "field": "tumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.0735746071879103
+          },
+          {
+            "encoded": "2Solidtumor",
+            "field": "2Solidtumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07741220007361953
+          },
+          {
+            "encoded": "VD1",
+            "field": "VD1",
+            "category": null,
+            "log1p": false,
+            "mean": 0.6561604584527221,
+            "scale": 0.4749883274521972,
+            "coefficient": 0.19035041711861256
+          },
+          {
+            "encoded": "calcium",
+            "field": "calcium",
+            "category": null,
+            "log1p": false,
+            "mean": 2.2173172221868174,
+            "scale": 0.1278441336947976,
+            "coefficient": -0.13976254468966884
+          },
+          {
+            "encoded": "ASA__1",
+            "field": "ASA",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.07640878701050621,
+            "scale": 0.2656510573630177,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__3",
+            "field": "ASA",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.24450811843361986,
+            "scale": 0.42979518198052286,
+            "coefficient": 0.13257115027792724
+          },
+          {
+            "encoded": "ASA__OTHER",
+            "field": "ASA",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.0033428844317096467,
+            "scale": 0.05772096287646178,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__UNKNOWN",
+            "field": "ASA",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.08944291889482896
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.25877974166588846
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.07702644790514233
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "rx_CCB_index",
+            "field": "rx_CCB_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.09551098376313276,
+            "scale": 0.2939194375058093,
+            "coefficient": 0.12473785797662891
+          },
+          {
+            "encoded": "rx_loop_diuretic_index",
+            "field": "rx_loop_diuretic_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.11127029608404966,
+            "scale": 0.31446655989694294,
+            "coefficient": 0.16703395006694965
+          },
+          {
+            "encoded": "rx_beta_blocker_index",
+            "field": "rx_beta_blocker_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.06017191977077364,
+            "scale": 0.23780508792259517,
+            "coefficient": 0.0358665462877605
+          },
+          {
+            "encoded": "rx_other_antihypertensive_index",
+            "field": "rx_other_antihypertensive_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.03629417382999045,
+            "scale": 0.18702113991736039,
+            "coefficient": 0.1137555223579982
+          },
+          {
+            "encoded": "rx_thiazide_index",
+            "field": "rx_thiazide_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.015281757402101241,
+            "scale": 0.12267120808406741,
+            "coefficient": 0.12001958181203128
+          }
+        ]
+      },
+      {
+        "intercept": -3.143260344795682,
+        "categories": {
+          "ASA": {
+            "common": [
+              "2",
+              "3",
+              "1"
+            ],
+            "reference": "2",
+            "training_counts": {
+              "2": 1415,
+              "3": 512,
+              "1": 160,
+              "4": 7
+            }
+          },
+          "SURGERY": {
+            "common": [
+              "7",
+              "5",
+              "3",
+              "9",
+              "8",
+              "1",
+              "12",
+              "4",
+              "6"
+            ],
+            "reference": "7",
+            "training_counts": {
+              "7": 724,
+              "5": 545,
+              "3": 167,
+              "9": 157,
+              "8": 139,
+              "1": 137,
+              "12": 86,
+              "4": 79,
+              "6": 39,
+              "10": 10,
+              "11": 8,
+              "2": 3
+            }
+          }
+        },
+        "columns": [
+          {
+            "encoded": "Gender",
+            "field": "Gender",
+            "category": null,
+            "log1p": false,
+            "mean": 0.31996179560649474,
+            "scale": 0.46646140779142964,
+            "coefficient": 0.16876302320836856
+          },
+          {
+            "encoded": "Age",
+            "field": "Age",
+            "category": null,
+            "log1p": false,
+            "mean": 69.86962750716333,
+            "scale": 11.298785937550381,
+            "coefficient": 0.9434030179094093
+          },
+          {
+            "encoded": "MAP",
+            "field": "MAP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.01767368939374815,
+            "scale": 0.15995828406930165,
+            "coefficient": 0.05089486257875304
+          },
+          {
+            "encoded": "FFP",
+            "field": "FFP",
+            "category": null,
+            "log1p": true,
+            "mean": 0.25078626104935403,
+            "scale": 1.182358738247981,
+            "coefficient": -0.20024073099375486
+          },
+          {
+            "encoded": "hypertension",
+            "field": "hypertension",
+            "category": null,
+            "log1p": false,
+            "mean": 0.15950334288443171,
+            "scale": 0.3661448162860197,
+            "coefficient": 0.07070509940125169
+          },
+          {
+            "encoded": "tumor",
+            "field": "tumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07354775021047821
+          },
+          {
+            "encoded": "2Solidtumor",
+            "field": "2Solidtumor",
+            "category": null,
+            "log1p": false,
+            "mean": 0.0071633237822349575,
+            "scale": 0.08433273726510852,
+            "coefficient": 0.07731358924334392
+          },
+          {
+            "encoded": "VD1",
+            "field": "VD1",
+            "category": null,
+            "log1p": false,
+            "mean": 0.6561604584527221,
+            "scale": 0.4749883274521972,
+            "coefficient": 0.19126078190080398
+          },
+          {
+            "encoded": "calcium",
+            "field": "calcium",
+            "category": null,
+            "log1p": false,
+            "mean": 2.217371212886239,
+            "scale": 0.1280819791738634,
+            "coefficient": -0.13411824975447326
+          },
+          {
+            "encoded": "ASA__1",
+            "field": "ASA",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.07640878701050621,
+            "scale": 0.2656510573630177,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__3",
+            "field": "ASA",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.24450811843361986,
+            "scale": 0.42979518198052286,
+            "coefficient": 0.1327955896658487
+          },
+          {
+            "encoded": "ASA__OTHER",
+            "field": "ASA",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.0033428844317096467,
+            "scale": 0.05772096287646178,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "ASA__UNKNOWN",
+            "field": "ASA",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__1",
+            "field": "SURGERY",
+            "category": "1",
+            "log1p": false,
+            "mean": 0.06542502387774594,
+            "scale": 0.2472743216113277,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__12",
+            "field": "SURGERY",
+            "category": "12",
+            "log1p": false,
+            "mean": 0.041069723018147083,
+            "scale": 0.19845150760162988,
+            "coefficient": -0.08955322613872327
+          },
+          {
+            "encoded": "SURGERY__3",
+            "field": "SURGERY",
+            "category": "3",
+            "log1p": false,
+            "mean": 0.07975167144221586,
+            "scale": 0.270908365216707,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__4",
+            "field": "SURGERY",
+            "category": "4",
+            "log1p": false,
+            "mean": 0.03772683858643744,
+            "scale": 0.19053483733089424,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__5",
+            "field": "SURGERY",
+            "category": "5",
+            "log1p": false,
+            "mean": 0.2602674307545368,
+            "scale": 0.4387804636067668,
+            "coefficient": 0.2588134264305336
+          },
+          {
+            "encoded": "SURGERY__6",
+            "field": "SURGERY",
+            "category": "6",
+            "log1p": false,
+            "mean": 0.01862464183381089,
+            "scale": 0.13519528301820724,
+            "coefficient": 0.07752626144576577
+          },
+          {
+            "encoded": "SURGERY__8",
+            "field": "SURGERY",
+            "category": "8",
+            "log1p": false,
+            "mean": 0.06638013371537727,
+            "scale": 0.24894539875905697,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__9",
+            "field": "SURGERY",
+            "category": "9",
+            "log1p": false,
+            "mean": 0.07497612225405921,
+            "scale": 0.2633528115395839,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__OTHER",
+            "field": "SURGERY",
+            "category": "OTHER",
+            "log1p": false,
+            "mean": 0.01002865329512894,
+            "scale": 0.09963974813404056,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "SURGERY__UNKNOWN",
+            "field": "SURGERY",
+            "category": "UNKNOWN",
+            "log1p": false,
+            "mean": 0.0,
+            "scale": 1.0,
+            "coefficient": 0.0
+          },
+          {
+            "encoded": "rx_CCB_index",
+            "field": "rx_CCB_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.09551098376313276,
+            "scale": 0.2939194375058093,
+            "coefficient": 0.12457122221120875
+          },
+          {
+            "encoded": "rx_loop_diuretic_index",
+            "field": "rx_loop_diuretic_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.11127029608404966,
+            "scale": 0.31446655989694294,
+            "coefficient": 0.16649054820049447
+          },
+          {
+            "encoded": "rx_beta_blocker_index",
+            "field": "rx_beta_blocker_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.06017191977077364,
+            "scale": 0.23780508792259517,
+            "coefficient": 0.03614340481345249
+          },
+          {
+            "encoded": "rx_other_antihypertensive_index",
+            "field": "rx_other_antihypertensive_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.03629417382999045,
+            "scale": 0.18702113991736039,
+            "coefficient": 0.11362372957625552
+          },
+          {
+            "encoded": "rx_thiazide_index",
+            "field": "rx_thiazide_index",
+            "category": null,
+            "log1p": false,
+            "mean": 0.015281757402101241,
+            "scale": 0.12267120808406741,
+            "coefficient": 0.12005508799069564
+          }
+        ]
+      }
+    ],
+    "outcome": "730-day mortality after discharge",
+    "input_contract": "complete inputs only; mean of member probabilities"
+  }
+}
